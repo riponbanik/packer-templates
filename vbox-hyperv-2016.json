@@ -28,7 +28,7 @@
   "provisioners": [
     {
       "type": "chef-solo",
-      "cookbook_paths": ["cookbooks", "vendor/cookbooks"],
+      "cookbook_paths": ["cookbooks", "cookbooks"],
       "guest_os_type": "windows",
       "run_list": [
         "wsus-client::configure",
@@ -91,7 +91,7 @@
   "variables": {
     "guest_additions_mode": "attach",
     "headless": "true",
-    "iso_checksum": "18a4f00a675b0338f3c7c93c4f131beb",
-    "iso_url": "http://care.dlservice.microsoft.com/dl/download/1/6/F/16FA20E6-4662-482A-920B-1A45CF5AAE3C/14393.0.160715-1616.RS1_RELEASE_SERVER_EVAL_X64FRE_EN-US.ISO"    
+    "iso_checksum": "e14d53b5ee037ff292f46558ab68fbdd",   
+    "iso_url": "iso/14393.0.161119-1705.RS1_REFRESH_SERVERHYPERCORE_OEM_X64FRE_EN-US.ISO"
   }
 }
